@@ -9,3 +9,5 @@
 - (optional) set timeout
 ## Running
 To run, execute `python main.py`. The Appointments are searched - number of free appointments will be printed in console
+
+This is for educational purposes only.
