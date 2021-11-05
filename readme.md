@@ -20,3 +20,7 @@ This is for educational purposes only.
 
 # Screenshot
 ![Screenshot of Command Line](screen.png)
+
+# Possible Extensions
+- Play a sound, when appointments are found
+- Send a message over telegram bot, when appointments are found
