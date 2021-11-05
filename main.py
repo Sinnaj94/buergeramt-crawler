@@ -9,6 +9,11 @@ logging.basicConfig(
     format='%(asctime)s %(levelname)s:%(message)s',
     level=logging.INFO)
 
+
+def handle_found_appointments(num_found):
+    # you can add your own handler (e.g. sounds, telegram) here
+    print("Yeah! %d possible appointments" % num_found)
+
 def crawl():
     html = requests.get(url)
     if(html.status_code != 200):
@@ -19,6 +24,7 @@ def crawl():
     found = len(soup.find_all("td", { "class": "buchbar" }))
     if found > 0:
         logging.info("FOUND %d POSSIBLE APPOINTMENTS!" % found)
+        handle_found_appointments(found)
 
 
 if url == "enter-url-here":
