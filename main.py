@@ -13,6 +13,8 @@ logging.basicConfig(
 def handle_found_appointments(num_found):
     # you can add your own handler (e.g. sounds, telegram) here
     print("Yeah! %d possible appointments" % num_found)
+    # This Character plays the default error sound on Ubuntu. I don't know if it works for Windows though
+    print("\a")
 
 def crawl():
     html = requests.get(url)
