@@ -1,4 +1,18 @@
 # Berlin Bürgeramt Appointment searcher
+## Why use this?
+After testing several libraries on GitHub,
+I decided to write my own, very simple bot.
+The other bots found on GitHub are heavily
+over engineered and often don't contain any
+dependency list (dependencies have to be installed
+manually).
+You can easily extend this library with your own code
+(Put into `main.py`, `handle_found_appointments(int)`.
+That's it.
+- 36 lines of code only (no over engineering)
+- python
+- easily extendible
+- contains requirements.txt
 ## Installation
 - Install Python and pip (python package manager)
 - (optional): Create virtualenvironment
