@@ -1,4 +1,8 @@
 # Berlin Bürgeramt Appointment searcher
+## Quickstart
+![](quickstart.gif)
+## Notes
+In the Quickstart Video, the site is not refreshed very often. This is due to heavy load on Berlin servers.
 ## Why use this?
 After testing several libraries on GitHub,
 I decided to write my own, very simple bot.
