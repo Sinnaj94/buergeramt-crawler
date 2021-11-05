@@ -3,7 +3,7 @@
 ![](quickstart.gif)
 ## Notes
 In the Quickstart Video, the site is not refreshed very often. This is due to heavy load on Berlin servers.
-## Why use this?
+## Why should I use this?
 After testing several libraries on GitHub,
 I decided to write my own, very simple bot.
 The other bots found on GitHub are heavily
@@ -17,6 +17,7 @@ That's it.
 - python
 - easily extendible
 - contains requirements.txt
+- v1.1: when jobs are found, the default Bell sound is printed (via print("\a")) (\a --> Character for playing terminal bell sound), so you can focus on your work/gaming/etc.
 ## Installation
 - Install Python and pip (python package manager)
 - (optional): Create virtualenvironment
